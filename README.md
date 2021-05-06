@@ -1,5 +1,5 @@
 # coverage-bug
 
-`coverage run -m src.foo && coverage xml`
+`coverage erase && coverage run -m src.foo && coverage xml`
 
-`python run_tests.py`
+`coverage erase && python run_tests.py`
